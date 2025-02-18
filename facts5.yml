@@ -1,0 +1,10 @@
+---
+
+- hosts: localhost
+
+
+  tasks:
+  - name: Print local facts
+    ansible.builtin.debug:
+      var: ansible_local
+  
